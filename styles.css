@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .section-color {
+    background-color: whitesmoke;
+    padding-top: 32px;
+  }
+  
+  div.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 32px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 48px 0;
+  }
+  
+  /* menu */
+  
+  nav {
+    background-color: seagreen;
+    padding-bottom: 32px;
+    box-shadow: 3px 1px 8px ;
+  }
+  
+  .student-name-top {
+    color: whitesmoke;
+    text-align: left;
+  }
+  
+  ul.top-menu {
+    text-align: center;
+    margin-top: 32px;
+    padding: 0 20px;
+  }
+  
+  ul.top-menu li {
+    margin: 8px;
+    list-style: none;
+    margin: 8px 0;
+    background-color: seagreen;
+    padding: 8px 0px;
+  }
+  
+  ul.top-menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 8px 100px;
+    background-color: seagreen;
+  }
+  
+  div.profile-picture {
+    text-align: center;
+  }
+  
+  div.profile-picture img {
+    width: 70%;
+  }
+  
+  div.intro {
+    padding: 32px 0;
+    text-align: center;
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+  }
+  
+  div.portfolio-image img {
+    width: 100%;
+  }
+  
+  div.portfolio-text {
+    text-align: center;
+    margin: 32px 0;
+  }
+  
+  div.portfolio-text h3 {
+    margin-bottom: 16px;
+  }
+  
+  /* footer */
+  
+  .contact-title {
+    padding-top: 56px;
+  }
+  
+  .contact-text,
+  .phone,
+  .email {
+    text-align: center;
+  }
+  
+  .phone {
+    margin: 24px 0;
+  }
+  
+  .email {
+    margin-bottom: 56px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-bottom p,
+  .footer-bottom ul {
+    font-weight: bold;
+    margin: 32px 0;
+  }
+  
+  .bottom-menu {
+    display: none;
+  }
+  
+  .back-to-top {
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .skills {
+    text-align: center;
+  }
+  
+  .skills-box {
+    margin-bottom: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    ul.top-menu {
+      display: flex;
+      justify-content: center;
+    }
+  
+    ul.top-menu li {
+      background-color: seagreen;
+      margin: 0 32px 48px 32px;
+    }
+  
+    ul.top-menu li a {
+      padding-right: 32px;
+      padding-left: 32px;
+    }
+  
+    .profile .profile-picture {
+      float: right;
+      width: 50%;
+    }
+  
+    .profile .intro {
+      float: left;
+      width: 50%;
+    }
+  
+    .profile {
+      height: 400px;
+    }
+  
+    div.intro {
+      padding: 0px;
+    }
+  
+    div.profile-picture img {
+      width: 70%;
+    }
+  
+    .portfolio {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 16px;
+    }
+  
+    .back-to-top {
+      display: none;
+      text-align: right;
+    }
+  
+    .bottom-menu {
+      display: flex;
+      list-style: none;
+    }
+  
+    .bottom-menu li {
+      margin-left: 16px;
+    }
+  
+    .bottom-menu li a {
+      text-decoration: none;
+      color: #333;
+    }
+  
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    div.skills-box ul li {
+      list-style: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: seagreen;
+      padding: 24px;
+      box-shadow: 3px 1px 8px #333;
+    }
+  
+    .navbar h1 {
+      padding: 0;
+    }
+  
+    .navbar ul {
+      margin-top: 0px;
+    }
+  
+    .navbar ul li {
+      margin: 0px 0px 0px 16px;
+      padding: 0;
+    }
+  
+    .navbar ul li a:hover {
+      background-color: seagreen;
+      color: orange;
+    }
+  
+    .navbar ul li a {
+      display: block;
+      padding: 12px;
+    }
+  
+    .portfolio {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    div.profile-picture img {
+      width: 50%;
+    }
+  
+    .student-name-top {
+      color: whitesmoke;
+      text-align: left;
+    }
+  
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+  
+    .skills div ul li {
+      list-style: none;
+    }
+    
+    footer .copyright {
+    text-align: center;
+    top: -8px;
+    font-size: .75em;
+    
+    }
+  }
